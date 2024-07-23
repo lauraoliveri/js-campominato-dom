@@ -1,0 +1,56 @@
+/* GENERAL */
+
+img {
+    max-width: 100%;
+}
+
+/* Style */
+
+.logo_img {
+    width: 100px;
+}
+
+.play_btn {
+    padding: 5px 25px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#grid_container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid_container_cells {
+    width: calc(1000px / 10);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem ;
+    font-weight: bolder;
+    background-color:#E098E0;
+    border: 1px solid aqua;
+    cursor: pointer;
+}
+
+.cells_clicked {
+    background-color: aqua;
+    border: 1px solid #E098E0;;
+    transition: ease-in-out;
+}
+
+.rainbow_text {
+    background: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    background-clip: text;
+    color: transparent;
+}
+
+.bombs {
+    background-color: aqua;
+    border: 1px solid #f54949;;
+    transition: ease-in-out;
+}
