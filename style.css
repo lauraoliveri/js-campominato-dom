@@ -32,14 +32,14 @@ img {
     align-items: center;
     font-size: 1.5rem ;
     font-weight: bolder;
-    background-color:#E098E0;
-    border: 1px solid aqua;
+    background-color:#D30F93;
+    border: 1px solid #FFC1EF;
     cursor: pointer;
 }
 
 .cells_clicked {
-    background-color: aqua;
-    border: 1px solid #E098E0;;
+    background-color: #FFC1EF;
+    border: 1px solid #D30F93;;
     transition: ease-in-out;
 }
 
@@ -49,8 +49,8 @@ img {
     color: transparent;
 }
 
-.bombs {
-    background-color: aqua;
-    border: 1px solid #f54949;;
+.bombs_cell {
+    background-color:#d30f29;
+    border: 1px solid #FFC1EF;
     transition: ease-in-out;
 }
